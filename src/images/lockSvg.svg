@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="32px" viewBox="0 0 27 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7838EA59-C61D-4289-ABAE-882C2A36DCC9@1.00x</title>
+    <defs>
+        <path d="M11.9388,7.2137 L11.0204,7.2137 L11.0204,4.5198 L11.0204,4.5171 L11.0204,4.5113 L11.0204,4.1264 L11.0031,4.1264 C10.7877,1.69901 8.5855,-0.23324 5.9694,0.02282 C3.5816,0.29248 1.83673,2.35986 1.83673,4.6969 L1.83673,7.2137 L0.91837,7.2137 C0.45918,7.2137 0,7.5732 0,8.1126 L0,17.1011 C0,17.5506 0.45918,17.9999972 0.91837,17.9999972 L11.9388,17.9999972 C12.4898,17.9999972 12.8571,17.5506 12.8571,17.1011 L12.8571,8.1126 C12.8571,7.5732 12.4898,7.2137 11.9388,7.2137 Z M9.1837,4.5125 L9.1837,7.2137 L3.6735,7.2137 L3.6735,4.607 C3.6735,3.2587 4.5918,2.0902 5.8776,1.82054 C7.6209,1.55113 9.1809,2.80701 9.1837,4.5125 Z M7.3469,14.0373 L7.3469,12.8688 C7.9898,12.5092 8.449,11.7901 8.2653,10.9812 C8.0816,10.352 7.5306,9.8126 6.8878,9.6329 C5.6939,9.3632 4.5918,10.1722 4.5918,11.3407 C4.5918,11.9699 4.9592,12.5092 5.5102,12.8688 L5.5102,14.0373 C5.5102,14.5766 5.8776,14.9361 6.4286,14.9361 C6.9796,14.9361 7.3469,14.5766 7.3469,14.0373 Z" id="path-1"></path>
+        <filter x="-81.7%" y="-58.3%" width="263.3%" height="216.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Testhy" transform="translate(-385.000000, -279.000000)">
+            <g id="Group-4" transform="translate(376.000000, 60.000000)">
+                <g id="Shape" transform="translate(16.000000, 226.000000)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

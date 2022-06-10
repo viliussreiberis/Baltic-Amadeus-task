@@ -1,0 +1,21 @@
+@import '../Variables/variables.scss';
+
+.loadingSpinnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.loadingSpinner {
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid $borderColor;
+    height: 6rem;
+    width: 6rem;
+    animation: loadingSpinner ease-out 1s infinite;
+}
+
+@keyframes loadingSpinner {
+    100% {transform: rotate(360deg);}
+}

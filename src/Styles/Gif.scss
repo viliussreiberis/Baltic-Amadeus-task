@@ -1,0 +1,90 @@
+@import '../Variables/variables.scss';
+@import '../Mixins/mixins.scss';
+
+.gifContainer {
+    height: auto;
+    max-height: 46rem;
+    position: relative;
+    cursor: pointer;
+   
+
+    &:hover::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: 4px solid $borderColor;
+        inset: 0;
+    }
+
+    // To keep gifs aspect ratio
+
+    // Responsive design
+    @include w1440 {
+        max-height: 26rem;
+      };
+
+    // To keep approximate gif aspect ratio (for code optimization this can be done in JavaScript)
+
+    @include w1300 {
+       max-height: 31.5rem;
+     };
+
+    @include w820 {
+        max-height: 19.1rem;
+      };
+
+    @include w769 {
+        max-height: 27.5rem;
+      };
+
+    @include w430 {
+        max-height: 13.4rem;
+      }; 
+
+    @include w375 {
+        max-height: 25.9rem;
+      };
+
+}
+
+.gifImg {
+    width: 100%;
+    height: 100%;
+}
+
+.lockImgContainer {
+    position: absolute;
+    left: 1.6rem;
+    bottom: 1.6rem;
+    width: 1.3rem;
+    height: 1.8rem;
+
+    padding: 0;
+    margin: 0;
+}
+
+.lockingImg {
+    width: 100%;
+    height: 100%;
+}
+
+.lockingContent {
+    position: absolute;
+    left: 1.6rem;
+    bottom: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.lockImg {
+    width: 1.3rem;
+    height: 1.8rem;
+}
+
+.lockingText {
+    margin-left: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

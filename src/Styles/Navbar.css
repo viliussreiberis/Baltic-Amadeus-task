@@ -1,0 +1,105 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.navbar .testhy {
+  height: 1.6rem;
+}
+
+@media (max-width: 500px) {
+  .navbar .testhy {
+    margin: 2rem 0;
+  }
+}
+
+.navbar .navAction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 300px) {
+  .navbar .navAction {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.navbar .infoImg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar .spacebarInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 300px) {
+  .navbar .spacebarInfo {
+    margin-bottom: 1rem;
+  }
+}
+
+.navbar .spacebarWord {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.navbar .text {
+  font-size: 1.2rem;
+  color: #636465;
+  margin: 0 .6rem 0 .9rem;
+}
+
+@media (max-width: 500px) {
+  .navbar .text {
+    margin-right: 2rem;
+  }
+}
+
+.navbar .navButton {
+  background-color: #4327f5;
+  height: 3rem;
+  width: 8.8rem;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

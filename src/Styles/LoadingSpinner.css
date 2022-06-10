@@ -1,0 +1,39 @@
+.loadingSpinnerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+}
+
+.loadingSpinner {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  border: 2px solid #4327f5;
+  height: 6rem;
+  width: 6rem;
+  -webkit-animation: loadingSpinner ease-out 1s infinite;
+          animation: loadingSpinner ease-out 1s infinite;
+}
+
+@-webkit-keyframes loadingSpinner {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingSpinner {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=LoadingSpinner.css.map */

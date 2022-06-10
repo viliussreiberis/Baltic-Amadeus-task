@@ -1,0 +1,75 @@
+@import '../Variables/variables.scss';
+@import '../Mixins/mixins.scss';
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    color: $mainTextColor;
+    margin-bottom: 2rem;
+
+    .testhy {
+        height: 1.6rem;
+
+        // Responsive design
+        @include w500 {
+          margin: 2rem 0
+          };
+    }
+
+    .navAction {
+        display: flex;
+
+        // Responsive design
+        @include w300 {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center
+            };
+    }
+
+    .infoImg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .spacebarInfo {
+        display: flex;
+        align-items: center;
+        // Responsive design
+        @include w300 {
+           margin-bottom: 1rem
+            };
+    }
+
+    .spacebarWord{
+        color: $mainTextColor;
+        text-decoration: underline;
+    }
+
+    .text {
+        font-size: 1.2rem;
+        color: $secondaryColor;
+        margin: 0 .6rem 0 .9rem;
+        // Responsive design
+        @include w500 {
+            margin-right: 2rem
+        };
+    }
+
+    .navButton {
+        background-color: $buttonBackground;
+        height: 3rem;
+        width: 8.8rem;
+        border-radius: 4px;
+        color: $mainTextColor;
+        cursor: pointer;
+    }
+    // Responsive design
+    @include w500 {
+        height: auto;
+        flex-direction: column;
+        justify-content: center
+      };
+}

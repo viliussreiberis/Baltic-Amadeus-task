@@ -1,0 +1,53 @@
+@import '../Variables/Variables.scss';
+
+
+@mixin w1440 {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin w1300 {
+    @media (max-width: 1300px) {
+      @content;
+    }
+  }
+
+@mixin w820 {
+    @media (max-width: 820px) {
+      @content;
+    }
+  }
+
+ @mixin w769 {
+    @media (max-width: 769px) {
+      @content;
+    }
+  }
+
+  @mixin w500 {
+    @media (max-width: 500px) {
+      @content;
+    }
+  }
+
+  @mixin w430 {
+    @media (max-width: 500px) {
+      @content;
+    }
+  }
+
+  @mixin w375 {
+    @media (max-width: 375px) {
+      @content;
+    }
+  }
+
+  @mixin w300 {
+    @media (max-width: 300px) {
+      @content;
+    }
+  }
+
+
+

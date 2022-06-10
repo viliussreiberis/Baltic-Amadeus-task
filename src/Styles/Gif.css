@@ -1,0 +1,96 @@
+.gifContainer {
+  height: auto;
+  max-height: 46rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.gifContainer:hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 4px solid #4327f5;
+  inset: 0;
+}
+
+@media (max-width: 1440px) {
+  .gifContainer {
+    max-height: 26rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .gifContainer {
+    max-height: 31.5rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .gifContainer {
+    max-height: 19.1rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .gifContainer {
+    max-height: 27.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .gifContainer {
+    max-height: 13.4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .gifContainer {
+    max-height: 25.9rem;
+  }
+}
+
+.gifImg {
+  width: 100%;
+  height: 100%;
+}
+
+.lockImgContainer {
+  position: absolute;
+  left: 1.6rem;
+  bottom: 1.6rem;
+  width: 1.3rem;
+  height: 1.8rem;
+  padding: 0;
+  margin: 0;
+}
+
+.lockingImg {
+  width: 100%;
+  height: 100%;
+}
+
+.lockingContent {
+  position: absolute;
+  left: 1.6rem;
+  bottom: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lockImg {
+  width: 1.3rem;
+  height: 1.8rem;
+}
+
+.lockingText {
+  margin-left: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/*# sourceMappingURL=Gif.css.map */
