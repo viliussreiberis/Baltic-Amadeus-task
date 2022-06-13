@@ -82,7 +82,7 @@ const Navbar = () => {
     );
 
     // set new gifs which contains of gifs from LS and additional gifs received from API
-    if (additionalArray[additionalArray.length - 1]?.order) {
+    if (additionalArray) {
       setGifs([...gifsFromStorage, ...additionalArray]);
     } else {
       // console.log("Something went wrong");
@@ -91,7 +91,7 @@ const Navbar = () => {
 
   // Set order property to additionals gifs. This guarantees that they will not take up locked gif place in the grid
   useEffect(() => {
-    if (additionalArray[additionalArray.length - 1]?.order) {
+    if (additionalArray) {
       additionalArray.forEach((item, i) => {
         item.order = ordersArr[i];
       });
